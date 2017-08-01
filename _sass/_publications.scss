@@ -1,0 +1,61 @@
+.keyword-toggle-container {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.btn-keyword {
+  cursor: pointer;
+}
+
+// Squeeze columns to allow more space
+.pub-list > .column {
+  padding-bottom: 0;
+}
+
+.pub-year {
+  color: $color-text-light;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.card-publication {
+  border: .1rem solid $color-gray-light;
+  padding: 0;
+
+  .card-image {
+    img {
+      box-shadow: 0 0 2px $color-gray-medium;
+      height: 120px;
+      margin: 0 auto;
+      width: 120px;
+    }
+  }
+
+  .card-header {
+    .card-title {
+      margin-bottom: 2px;
+    }
+
+    .card-subtitle {
+      margin-bottom: 5px;
+    }
+  }
+
+  .pub-keywords {
+    margin-bottom: 5px;
+  }
+
+  .pub-abstract {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .pub-btn {
+    padding-left: 0;
+  }
+
+  .pub-image,
+  .pub-title {
+    cursor: pointer;
+  }
+}

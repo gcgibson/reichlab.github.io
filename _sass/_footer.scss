@@ -1,0 +1,24 @@
+.section-footer {
+  padding: 2em;
+  padding-top: 4em;
+
+  a {
+    color: $color-gray-dark;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &#twitter-btn {
+      margin-left: 2em;
+
+      &:hover {
+        color: $color-twitter;
+      }
+    }
+
+    &#github-btn:hover {
+      color: $color-github;
+    }
+  }
+}

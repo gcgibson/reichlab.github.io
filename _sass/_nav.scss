@@ -1,0 +1,13 @@
+.nav-accent {
+  height: 5px;
+  width: 100%;
+  background-color: $color-gray-dark;
+}
+
+.section-nav {
+  .navbar-brand {
+    img {
+      max-height: 70px;
+    }
+  }
+}

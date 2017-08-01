@@ -1,0 +1,33 @@
+.people-type {
+  margin-bottom: 0;
+}
+
+.card-people {
+  border: .1rem solid $color-gray-light;
+  padding: 0;
+
+  .card-image {
+    .img-people {
+      background-position: center;
+      background-size: cover;
+      border-radius: 1000px;
+      box-shadow: 0 0 2px $color-gray-medium;
+      height: 160px;
+      margin: 0 auto;
+      width: 160px;
+    }
+  }
+
+  .card-header {
+    padding-bottom: 5px;
+
+    .card-title {
+      display: inline;
+    }
+
+    .card-subtitle-inline {
+      display: inline;
+    }
+  }
+}
+

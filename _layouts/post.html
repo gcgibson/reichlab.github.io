@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+
+    <section class="container container-body grid-custom">
+      <div class="columns">
+        <div class="column col-8 col-md-12">
+          <h1>{{ page.title }}</h1>
+          <p>
+            by <em>{{ page.author }}</em>
+          </p>
+          <p><i class="fa fa-clock-o"></i> Posted on {{ page.date | date: '%d %B, %Y' }}</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column col-8 col-md-12">
+          {{ content }}
+
+          {% if page.comments %}
+            {% include comments.html %}
+          {% endif %}
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,66 @@
+@import 'nav';
+@import 'footer';
+@import 'people';
+@import 'theme';
+@import 'publications';
+
+.bg-gray {
+  background-color: $color-gray-light;
+}
+
+.container-body {
+  padding: 2em;
+}
+
+.container.grid-custom {
+  max-width: 110rem;
+}
+
+ul {
+  list-style-position: outside;
+}
+
+.error-panel {
+  margin: 10rem 0;
+}
+
+.highlight {
+  border-radius: 5px;
+  font-family: 'Source Code Pro';
+  font-size: 14px;
+  overflow-x: auto;
+
+  // Fix for parens
+  .p {
+    font-size: 12px;
+  }
+
+  code {
+    line-height: 1.8em;
+    padding: 1em;
+  }
+}
+
+code {
+  background: $color-code-background;
+  border-radius: 5px;
+  color: $color-code-foreground;
+  font-family: 'Source Code Pro';
+  padding: 0 5px;
+}
+
+.feed-card {
+  padding: 10px;
+  text-align: left;
+}
+
+// Carousel
+.carousel-home-image {
+  width: 100%;
+}
+
+.slick-track {
+  align-items: center;
+  display: flex !important;
+  justify-content: center;
+}
